@@ -133,8 +133,8 @@ a:hover {
 body {
     display: flex;
     flex-direction: column;
-    margin: 6rem 16rem 2rem 16rem;
-    max-width: 80rem;
+    margin: 10vh 16vw 2vh 16vw;
+    /* max-width: 72rem; */
 }
 
 .main {
@@ -148,7 +148,7 @@ body {
     flex-direction: column;
     gap: 4rem;
     width: 100%;
-    margin-right: 32rem;
+    margin-right: 50%;
 }
 
 .intro {
@@ -274,7 +274,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 768px) {
     body {
         margin: 3rem 3rem 1rem 3rem;
     }
@@ -310,7 +310,7 @@ body {
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     body {
-        margin: 3rem 3rem 1rem 3rem;
+        margin: 3rem 6rem 1rem 6rem;
     }
     .main {
         display: flex;
@@ -342,27 +342,21 @@ body {
     }
 }
 
-
-@media only screen and (min-width: 1023px) and (max-width: 1200px) {
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
     body {
-        margin: 4rem 8rem 2rem 8rem;
-    }
-    .content {
-        margin-right: 24rem;
-    }
-    .aside {
-        width: 20rem;
+        margin: 10vh 8vw 2vh 8vw;
     }
 }
 
-@media only screen and (min-width: 1199px) and (max-width: 1400px) {
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
     body {
-        margin: 6rem 8rem 2rem 8rem;
+        margin: 10vh 12vw 2vh 12vw;
     }
-    .content {
-        margin-right: 28rem;
-    }
-    .aside {
-        width: 24rem;
+}
+
+@media only screen and (min-width: 2000px) {
+    body {
+        margin: 10vh auto 2vh auto;
+        max-width: 72rem;
     }
 }
