@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'pp_editorial_newultralight';
+    src: url('../fonts/ppeditorialnew-ultralight-webfont.woff2') format('woff2'),
+         url('../fonts/ppeditorialnew-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pp_editorial_newultraLtIt';
+    src: url('../fonts/ppeditorialnew-ultralightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/ppeditorialnew-ultralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pp_neue_montrealitalic';
+    src: url('../fonts/ppneuemontreal-italic-webfont.woff2') format('woff2'),
+         url('../fonts/ppneuemontreal-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pp_neue_montrealregular';
+    src: url('../fonts/ppneuemontreal-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ppneuemontreal-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pp_neue_montrealbook';
+    src: url('../fonts/ppneuemontreal-book-webfont.woff2') format('woff2'),
+         url('../fonts/ppneuemontreal-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

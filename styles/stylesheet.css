@@ -1,0 +1,368 @@
+/* General */
+html {
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    display: block;
+}
+
+/* Colors */
+.color-cherry {
+    color: #300501;
+}
+
+.color-pesto {
+    color: #3F640F;
+}
+
+.color-brick {
+    color: #DC4726;
+}
+
+.color-sand {
+    color: #C1B19C;
+}
+
+.bgcolor-sand {
+    background-color: #FCF3EA;
+}
+
+.bgcolor-shadow-1 {
+    background-color: #FAECE0;
+}
+
+.bgcolor-shadow-2 {
+    background-color: #F8E6D4;
+}
+
+/* Text styles */
+h1 {
+    font-family: 'pp_neue_montrealregular';
+    font-size: 1rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.02rem;
+}
+
+h2 {
+    font-family: 'pp_editorial_newultralight';
+    font-size: 3.5rem;
+    line-height: 3.8rem;
+}
+
+h2 > span {
+    font-family: 'pp_editorial_newultraLtIt';
+    font-size: 3.5rem;
+    line-height: 3.8rem;
+}
+
+h3 {
+    font-family: 'pp_neue_montrealregular';
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'pp_neue_montrealregular';
+    font-size: 1rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.02rem;
+}
+
+.b1 {
+    font-family: 'pp_neue_montrealbook';
+    font-size: 1rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.01rem;
+}
+
+.b2 {
+    font-family: 'pp_neue_montrealbook';
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.01rem;
+}
+
+.b2-reg {
+    font-family: 'pp_neue_montrealregular';
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.01rem;
+}
+
+.b2-italic {
+    font-family: 'pp_neue_montrealitalic';
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.01rem;
+}
+
+.footnote {
+    font-family: 'pp_editorial_newultralight';
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+
+.footnote-italic {
+    font-family: 'pp_editorial_newultraLtIt';
+    font-size: 1rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.01rem;
+}
+
+a {
+    font-family: 'pp_editorial_newultraLtIt';
+    font-size: 1rem;
+    line-height: 1.375rem;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #3F640F;
+}
+
+/* Content */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 16rem 2rem 16rem;
+    max-width: 80rem;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+    margin-right: 32rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.intro > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.workxp {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+:nth-child(n + 2 of .job) {
+    margin-top: 0.5rem;
+}
+
+.top {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.aside {
+    width: 24rem;
+    position: fixed;
+}
+
+.sun {
+    width: 100%;
+    max-width: 24rem;
+    border-radius: 12rem 12rem 0rem 0rem;
+}
+
+.location {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.dash {
+    width: 1.5rem;
+    height: 0.08rem;
+    background-color: #3F640F;
+}
+
+.location > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.easteregg {
+    margin-top: 16rem;
+    text-align: center;
+}
+
+/* Breakpoints */
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-family: 'pp_editorial_newultralight';
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+    h2 > span {
+        font-family: 'pp_editorial_newultraLtIt';
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+    body {
+        margin: 2rem 1rem;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8rem;
+        position: initial;
+        width: 100%;
+    }
+    .content {
+        margin-right: 0;
+    }
+    .aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        position: initial;
+        margin: 0rem 1rem;
+    }
+    .sun {
+        max-width: 24rem;
+    }
+    .location {
+        max-width: 24rem;
+    }
+    .easteregg {
+        margin: 8rem 3.5rem 0rem 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 3rem 3rem 1rem 3rem;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8rem;
+        position: initial;
+        width: 100%;
+    }
+    .content {
+        margin-right: 0;
+    }
+    .aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        position: initial;
+        margin: 0rem 1rem;
+    }
+    .sun {
+        max-width: 24rem;
+    }
+    .location {
+        max-width: 24rem;
+    }
+    .easteregg {
+        margin: 8rem 3.5rem 0rem 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        margin: 3rem 3rem 1rem 3rem;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8rem;
+        position: initial;
+        width: 100%;
+    }
+    .content {
+        margin-right: 0;
+    }
+    .aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        position: initial;
+        margin: 0rem 1rem;
+    }
+    .sun {
+        max-width: 24rem;
+    }
+    .location {
+        max-width: 24rem;
+    }
+    .easteregg {
+        margin: 8rem 3.5rem 0rem 3.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 1023px) and (max-width: 1200px) {
+    body {
+        margin: 4rem 8rem 2rem 8rem;
+    }
+    .content {
+        margin-right: 24rem;
+    }
+    .aside {
+        width: 20rem;
+    }
+}
+
+@media only screen and (min-width: 1199px) and (max-width: 1400px) {
+    body {
+        margin: 6rem 8rem 2rem 8rem;
+    }
+    .content {
+        margin-right: 28rem;
+    }
+    .aside {
+        width: 24rem;
+    }
+}
