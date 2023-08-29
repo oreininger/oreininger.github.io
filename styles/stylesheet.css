@@ -22,7 +22,7 @@ svg {
 }
 
 .color-brick {
-    color: #DC4726;
+    color: #C94021;
 }
 
 .color-sand {
@@ -43,26 +43,29 @@ svg {
 
 /* Text styles */
 h1 {
-    font-family: 'pp_neue_montrealregular';
+    font-family: 'pp_neue_montrealregular', system-ui;
+    font-weight: 400;
     font-size: 1rem;
     line-height: 1.375rem;
     letter-spacing: 0.02rem;
 }
 
 h2 {
-    font-family: 'pp_editorial_newultralight';
+    font-family: 'pp_editorial_newultralight', ui-serif;
     font-size: 3.5rem;
     line-height: 3.8rem;
 }
 
 h2 > span {
-    font-family: 'pp_editorial_newultraLtIt';
+    font-family: 'pp_editorial_newultraLtIt', ui-serif;
+    font-style: italic;
     font-size: 3.5rem;
     line-height: 3.8rem;
 }
 
 h3 {
-    font-family: 'pp_neue_montrealregular';
+    font-family: 'pp_neue_montrealregular', system-ui;
+    font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.02rem;
@@ -70,55 +73,63 @@ h3 {
 }
 
 h4 {
-    font-family: 'pp_neue_montrealregular';
+    font-family: 'pp_neue_montrealregular', system-ui;
+    font-weight: 400;
     font-size: 1rem;
     line-height: 1.375rem;
     letter-spacing: 0.02rem;
 }
 
 .b1 {
-    font-family: 'pp_neue_montrealbook';
+    font-family: 'pp_neue_montrealbook', system-ui;
+    font-weight: 300;
     font-size: 1rem;
     line-height: 1.375rem;
     letter-spacing: 0.01rem;
 }
 
 .b2 {
-    font-family: 'pp_neue_montrealbook';
+    font-family: 'pp_neue_montrealbook', system-ui;
+    font-weight: 300;
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.01rem;
 }
 
 .b2-reg {
-    font-family: 'pp_neue_montrealregular';
+    font-family: 'pp_neue_montrealregular', system-ui;
+    font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.01rem;
 }
 
 .b2-italic {
-    font-family: 'pp_neue_montrealitalic';
+    font-family: 'pp_neue_montrealitalic', system-ui;
+    font-weight: 400;
+    font-style: italic;
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.01rem;
 }
 
 .footnote {
-    font-family: 'pp_editorial_newultralight';
+    font-family: 'pp_editorial_newultralight', ui-serif;
     font-size: 1rem;
     line-height: 1.375rem;
 }
 
 .footnote-italic {
-    font-family: 'pp_editorial_newultraLtIt';
+    font-family: 'pp_editorial_newultraLtIt', ui-serif;
+    font-style: italic;
     font-size: 1rem;
     line-height: 1.375rem;
     letter-spacing: 0.01rem;
 }
 
 a {
-    font-family: 'pp_editorial_newultraLtIt';
+    font-family: 'pp_editorial_newultraLtIt', ui-serif;
+    font-style: italic;
     font-size: 1rem;
     line-height: 1.375rem;
     text-decoration: underline;
